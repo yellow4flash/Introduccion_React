@@ -13,6 +13,7 @@ const { plantTrees } = this.props */
 
   const { notes } = props;
   // console.log(notes);
+  //console.log(`${notes}`); //se llama interpolación
 
   return (
     <div>
