@@ -2,7 +2,9 @@ import "./styles.css";
 // import Hola from "./Hello";
 // import Counter from "./Counter";
 // import Notas from "./notas";
-import Cursos from "./cursos";
+// import Cursos from "./cursos";
+// import Condicional from "./condicional";
+import Condicional2 from "./condicional2";
 
 const notes = [
   {
@@ -80,7 +82,9 @@ export default function App() {
       {/* <Counter></Counter> */}
       {/* prop y variable{notes} */}
       {/* <Notas notes={notes}></Notas> */}
-      <Cursos courses={courses} />
+      {/* <Cursos courses={courses} /> */}
+      {/* <Condicional totalMessages={10} /> */}
+      <Condicional2 estado={"L"} />
     </div>
   );
 }
