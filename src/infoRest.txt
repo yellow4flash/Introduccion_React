@@ -27,3 +27,18 @@
   // al estar separado cliente y servidor, la depuración de errores es más sencilla.
   // Nos permite tener escalabilidad, podemos dedicar esfuerzos
   // en diferentes lados(En servidor y nuestro cliente).
+
+
+  //last activity
+  Chavos, la tarea de hoy se tratará de hacer una Lista To-Do.
+
+Van a utilizar fetch, como lo vimos en clases para consumir el siguiente endpoint: https://jsonplaceholder.typicode.com/todos
+
+---- R E Q U E R I M I E N T O S.
+- Las variables a utilizar en nuestro useState debe de ser: todos, setTodos.
+- Nuestro endpoint nos regresa 200 to-dos, debemos de obtener los primeros 20 to-dos y esos 20, almacenarlos en nuestro useState.
+- Se debe de usar async/await en la función donde se utilizara fetch.
+- La función donde se utilizará fetch se debe de llamar fetchData.
+- fetchData se debe de utilizar cuando se 'monta' el componente o en el primer renderizado usando useEffect.
+- Crear un botón donde añadiremos un evento donde al presionarlo, nos debe de filtrar los 'to-dos' completados. Si volvemos a dar clic, nos mostraría todos los 'to-dos'.
+- Mostrar los to-dos.

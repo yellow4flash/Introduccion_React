@@ -7,7 +7,8 @@ import "./styles.css";
 // import Condicional2 from "./condicional2";
 // import Telefonia from "./telefonia";
 // import Asincrono from "./Asincrono";
-import Rest from "./Rest";
+// import Rest from "./Rest";
+import Lista from "./to-do";
 
 const notes = [
   {
@@ -90,7 +91,8 @@ export default function App() {
       {/* <Condicional2 estado={"L"} /> */}
       {/* <Telefonia /> */}
       {/* <Asincrono /> */}
-      <Rest />
+      {/* <Rest /> */}
+      <Lista />
     </div>
   );
 }

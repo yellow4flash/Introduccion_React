@@ -30,10 +30,12 @@ const Asincrono = () => {
   };
   const unoSincrono = () => {
     console.log("uno sinc");
+    dosSincrono();
+    console.log("tres sinc");
   };
   const dosSincrono = () => {
     setTimeout(() => {
-      console.log("uno sinc");
+      console.log("dos sinc");
     }, 1000);
   };
   const handleClickSincrono = () => {
