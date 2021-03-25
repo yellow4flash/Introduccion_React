@@ -1,10 +1,11 @@
 import "./styles.css";
 // import Hola from "./Hello";
 // import Counter from "./Counter";
-import Notas from "./notas";
+// import Notas from "./notas";
 // import Cursos from "./cursos";
 // import Condicional from "./condicional";
 // import Condicional2 from "./condicional2";
+import Telefonia from "./telefonia";
 
 const notes = [
   {
@@ -81,10 +82,11 @@ export default function App() {
       {/* <Hola age="20"></Hola> */}
       {/* <Counter></Counter> */}
       {/* prop y variable{notes} */}
-      <Notas notes={notes}></Notas>
+      {/* <Notas notes={notes}></Notas> */}
       {/* <Cursos courses={courses} /> */}
       {/* <Condicional totalMessages={10} /> */}
       {/* <Condicional2 estado={"L"} /> */}
+      <Telefonia />
     </div>
   );
 }

@@ -32,7 +32,7 @@ const { plantTrees } = this.props */
     };
     setNotas(notas.concat(noteObject));
     setNuevaNota("");
-    console.log(e);
+    // console.log(e);
   };
 
   const handleNoteChange = (e) => {
@@ -65,7 +65,9 @@ const { plantTrees } = this.props */
     <div>
       <h1>Notas</h1>
       {/* en map siempre debe regresar un key */}
-      <button onClick={handleButtom}></button>
+      <button onClick={handleButtom}>
+        {showImportant ? "All" : "Important"}
+      </button>
       <ul>
         {notasAMostrar.map((note) => (
           <Nota key={note.id} note={note} />
