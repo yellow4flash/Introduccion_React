@@ -16,19 +16,7 @@ const Telefonia = () => {
     // setPersons(persons);
     // console.log("Personas", persons);
   }, [persons]);
-
-  // let vari = false;
-  // persons.filter((person) => {
-  //   const Equal = newNumber === person.number ? true : false;
-  //   if (Equal) {
-  //     vari = true;
-  //   } else {
-  //     vari = false;
-  //   }
-  //   return Equal;
-  // });
-  // console.log("vari:", vari);
-  // console.log(persons);
+  // para que sirven las funciones filter, map,
 
   const addPerson = (e) => {
     e.preventDefault();
@@ -43,6 +31,9 @@ const Telefonia = () => {
     } else if (
       persons.filter((person) => newNumber === person.number).length > 0
     ) {
+      /* filter es una funcion de JS
+      que permite (como su nombre lo dice)
+      Filtrar los objetos que cumplan la condición de adentro*/
       alert("Número repetido");
     } else {
       setPersons(persons.concat(personObject));
@@ -93,10 +84,10 @@ const Telefonia = () => {
           {showImportant ? (
             <ul>
               {persons.map((person) => {
+                const { name, number } = person;
                 return (
-                  <p>
-                    Nombre: {person.name} --- Número: {person.number}{" "}
-                  </p>
+                  // template literals
+                  <li>{`Nombre: ${name} --- Número: ${number}`}</li>
                 );
               })}
             </ul>

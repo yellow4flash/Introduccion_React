@@ -1,0 +1,29 @@
+  // la resAPI se hace a travéz de un Json
+  // Que nos permite realizar las siguente operaciones: CRUD
+  //Create
+  //Read
+  //Update
+  //Delete
+
+  // Metodos
+  // Post -> permite crear un 'resource'
+  // Get  -> permite obtener un 'resource' o varios 'resources'
+  // Delete -> permite eliminar un 'resource'
+  // Put/Patch -> permite actualizar un 'resource'
+
+  // Códigos de estado.
+  // http://www.restapitutorial.com
+  // 200 - todo salió bien
+  // 201 - se creo todo correctamente
+  // 400 - data que envió el cliente no es correcta.
+  // 401 - no tienes autorización para acceder ahí
+  // 403 - está prohibido el acceso para uno.
+  // 404 - no existe
+  // 500 - Error interno del servidor
+
+  // Ventajas de usar Rest -> permite separar cliente del servidor
+  // cliente: React
+  // Servidor: NodeJS, Python, Php, Go, Erlang.
+  // al estar separado cliente y servidor, la depuración de errores es más sencilla.
+  // Nos permite tener escalabilidad, podemos dedicar esfuerzos
+  // en diferentes lados(En servidor y nuestro cliente).

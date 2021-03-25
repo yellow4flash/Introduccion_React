@@ -5,7 +5,9 @@ import "./styles.css";
 // import Cursos from "./cursos";
 // import Condicional from "./condicional";
 // import Condicional2 from "./condicional2";
-import Telefonia from "./telefonia";
+// import Telefonia from "./telefonia";
+// import Asincrono from "./Asincrono";
+import Rest from "./Rest";
 
 const notes = [
   {
@@ -86,7 +88,9 @@ export default function App() {
       {/* <Cursos courses={courses} /> */}
       {/* <Condicional totalMessages={10} /> */}
       {/* <Condicional2 estado={"L"} /> */}
-      <Telefonia />
+      {/* <Telefonia /> */}
+      {/* <Asincrono /> */}
+      <Rest />
     </div>
   );
 }
